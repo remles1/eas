@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 700px;
+    height: 700px;
+    gap: 1px;
+    background-color: black;
+}
+
+.cell{
+    background-color: white;
+}
+
